@@ -21,11 +21,12 @@ for line in originaltext:
 
 newnames = [originaltext.replace('sun', 'fire') for name in originaltext]
 
+print (newnames)
 
 indentedtext = (textwrap.fill(originaltext, initial_indent= '    '))
 
-print (indentedtext)
+#print (indentedtext)
 
 indentedtext2 = (textwrap.fill(newnames, initial_indent= '    '))
 
-print (indentedtext2)
+#print (indentedtext2)
